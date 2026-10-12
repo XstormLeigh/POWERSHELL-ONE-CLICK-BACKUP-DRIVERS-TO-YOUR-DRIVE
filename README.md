@@ -71,6 +71,3 @@ so you can double-click it or right-click → **Run with PowerShell**, and accep
 **Notes:**
 - If double-clicking opens the file in an editor instead, that's a Windows default. Right-click → Run with PowerShell works, or you can make a desktop shortcut with the target `powershell.exe -ExecutionPolicy Bypass -File "D:\Scripts\Backup-Drivers.ps1"`.
 - The script launches Windows PowerShell 5.1 (`powershell.exe`) rather than PowerShell 7, since the driver export cmdlets work most reliably there.
-- From Nushell, you can run it with `powershell -File D:\Scripts\Backup-Drivers.ps1`.
-
-I haven't run this on your machine, so test it once and check the output folder before relying on it. I can also add a zip step or a scheduled task for automatic weekly backups if you'd like.
